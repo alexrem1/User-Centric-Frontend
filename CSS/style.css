@@ -1,41 +1,286 @@
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Modak', cursive;
 }
 
-.col-12 {
+.container-wrapper{
+    
+}
+
+.container-wrapper-pink {
+    background-color: #ff0a0a59;
+    padding-bottom: 75px;
+}
+
+.container-wrapper-pinker{
+    background-color: #ff0a0a82;
+    padding-bottom: 75px;
+    
+}
+
+.container-wrapper-blue {
+    
+    background-color: #ff0a0a59;
+    padding-bottom: 75px;
+    
+}
+
+.container-wrapper-bluer{
+    
+    background-color: #ff0a0a82;
+    padding-bottom: 75px;
+    
+}
+
+
+.pad{
     padding: 0;
 }
 
-
-.alert-container{
-    
+.alert-style {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    border-radius: 0;
+    border: 0;
+    padding: 10px 15px;
+    letter-spacing: 1px;
 }
 
-.callout-container{
+.alert-style1 {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    border: 0;
+}
+
+.callout-container {
     height: 100vh;
 
-  background: url(../images/.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url("../images/splash2.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: start;
+    justify-content: start;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.025);
 }
 
 
+.wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #f16e6e;
+}
+
+.blockquote-footer {
+    color: #f16e6e;
+    font-size: 200%;
+    text-align: center;
+}
+
+.quotes {
+    font-size: 376%;
+    text-align: center;
+}
+
+.quotes-mobile {
+    font-size: 222%;
+    text-align: center;
+}
+
+.blockquote-mobile {
+    color: #f16e6e;
+    font-size: 150%;
+    text-align: center;
+}
+
+.blockquote {
+    margin-bottom: 0;
+}
 
 .equip-container {
-    
+    height: 50vh;
+    background: url("../images/1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative; 
 }
 
-.offers-container {
-    
+.equip-container1 {
+    height: 50vh;
+    background: url("../images/2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
 }
 
-.quotes-container{
-    
+
+.equipment {
+    color: #d1e2c9;
+    font-size: 119%;
+    bottom: 0px;
+    position: absolute;
+    left: 160px;
 }
 
-.marketing-container{
+.equipment-mobile{
+    color: #d1e2c9;
+    font-size: 119%;
+    bottom: 0px;
+    position: absolute;
+    left: 160px;
+}
     
+
+.offers-container {}
+
+
+.marketing-container {}
+
+
+/* navbar*/
+
+.navflash-container {
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.navbar-nav {
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbg {
+    background-color: #ff0a0a59;
+}
+
+.dropdown-menu {
+    background-color: #ffa9a9;
+}
+
+.navbar-brand {
+    margin-left: 155px;
+    letter-spacing: 7px;
+    color: #000;
+}
+
+.nav .navbar-brand {
+    color: #000;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.hnnbold {
+    color: black;
+}
+
+.menu-style{
+    border: 0;
+}
+
+.dropdrown-divider{
+    height: 0;
+    margin: .5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #000000;
+}
+
+
+/* button */
+
+.btnposition {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 8px;
+
+}
+
+
+.btncolor {
+    background-color: rgb(0, 0, 0);
+    color: #ff8282;
+}
+
+.btncolor:hover,
+.btncolor:active,
+.btncolor:focus,
+.btncolor:active:focus {
+    background-color: #fff;
+    color: #f16e6e;
+}
+
+a:hover,
+a:active,
+a:focus,
+a:active:focus {
+    color: #f16e6e;
+    font-weight: lighter;
+}
+
+button:focus {
+    outline: none;
+}
+
+a {
+        color: #ff0000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.a1 {
+    font-weight: normal;
+}
+
+.a1:hover,
+.a1:active,
+.a1:focus,
+.a1:active:focus {
+    color: #fff;
+    font-weight: lighter;
+}
+
+/*content head */
+
+.content-head {
+    border-bottom: 0;
+}
+
+.content-head h2 {
+    margin-top: 0;
+}
+
+.offers{
+    text-align: center;
+}
