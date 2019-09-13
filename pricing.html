@@ -77,14 +77,14 @@
     <div class="container-fluid-pricing">
         <section class="offers">
             <div class="row">
-                
+
                 <div class="col-12 col-sm-12">
-                        <h1 style="text-decoration:underline; text-decoration-style:dotted;">Why should you train with us?</h1>
-                        <p>As a company we have won some of the most prestigious awards in the industry since opening in 2018.
+                    <h1 style="text-decoration:underline; text-decoration-style:dotted;">Why should you train with us?</h1>
+                    <p>As a company we have won some of the most prestigious awards in the industry since opening in 2018.
                         <br>In such a short amount of time we have been mentioned up there with the best, spoken about by the best
                         <br>and considered to be the best. We love this industry and it's people, let us make that difference for you today.</p>
                 </div>
-                
+
                 <div class="col-6 foundation bgcolorf">
                     <h1>Foundation Membership</h1>
                     <ul class="list-group list-group-flush h2-bar">
@@ -142,7 +142,7 @@
         <!-- Offers -->
         <div class="container-fluid offers-container">
             <div class="row ">
-                
+
                 <div class="col-12 col-sm-6 col-md-4 content-head container-wrapper-pink offers">
                     <section>
                         <h2><i class="fas fa-medal d-none d-sm-inline"></i><em><strong> Offer 1</strong></em>
@@ -214,9 +214,16 @@
 
                     <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 container-wrapper-pinker offers">
                         <h1><i class="fas fa-newspaper d-none d-sm-inline "></i><strong> Get the Latest Specials and News</strong></h1>
-                        <p>
-                            <lead>Join our newsletter (form) </lead>
-                        </p>
+                        <h1>SUBSCRIBE</h1>
+                        <p>Enter your email to recieve up to date developments about the gym such as new products, special promotional offers and our company's participation in exhibitions and conferences. </p>
+                        <form>
+                            <div class="form-group offers h2">
+                                <input type="email" class="form-control offers" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required style="margin-left: 25%;">
+                            </div>
+                            <div class="col-12 join-now offers">
+                                <input type="submit" value='Submit' class="btn btncolor btn-lg" data-toggle="modal" data-target="#newsletterModal">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -247,6 +254,22 @@
             </div>
         </div>
     </div>
+    <!--/ MODAL ERROR-->
+    <!-- MODAL NEWSLETTER-->
+    <div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="newlettermodaltitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+                    </button>
+                    <p>This newsletter form does not currently load you to another page or collect any personal information. It is only for educational purposes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /MODAL NEWSLETTER-->
 
     <!-- MODAL HOURS-->
     <div class="modal fade" id="hoursModal" tabindex="-1" role="dialog" aria-labelledby="hoursmodaltitle" aria-hidden="true">

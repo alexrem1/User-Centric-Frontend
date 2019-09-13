@@ -83,73 +83,71 @@
                 <form class="quotes-login">
                     <div class="form-group">
                         <label for="InputEmail">Email address</label>
-                        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                        <input type="email" class="form-control" id="InputEmail" placeholder="Enter email" required>
                         <small id="emailHelp" class=" text-muted-home">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
                         <label for="InputPassword1">Password</label>
-                        <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+                        <input type="password" class="form-control" id="InputPassword1" placeholder="Password" required>
                     </div>
-                    <button type="button" class="btn btncolor btn-sm" data-toggle="modal" data-target="#loginModal">
-              Submit
-            </button>
+                    <input type="submit" value='Login' class="btn btncolor btn-sm" data-toggle="modal" data-target="#loginModal">
                 </form>
             </div>
         </div>
     </div>
 
 
-    <!-- Marketing -->
+  <!-- MARKETING -->
     <div class="container-wrapper">
-        <div class="container-fluid marketing-container content-container">
+        <div class="container-fluid marketing-container">
             <section class="marketing ">
                 <div class="row ">
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 content-head container-wrapper-pink offers ">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-3 container-wrapper-pink offers ">
                         <h1><i class="fas fa-map-marked-alt d-none d-sm-inline "></i><strong> Visit us!</strong></h1>
                         <button type="button" class="btn btncolor btn-sm my-3" data-toggle="modal" data-target="#hoursModal"><u>
                           Opening Hours & Times
                         </button></u>
-
                         <address class="h2">Hammer and Nails, Inc.<br>
                                                     193-203 Waterloo Rd, Baron's Pl<br>
                                                     South Bank, London SE1 8UX<br>
                                                      </address>
-
                     </div>
-
-
                     <div class="col-12 d-sm-none d-md-none d-lg-none d-xl-none d-xl-block col-xl-3 container-wrapper-pinker offers ">
                         <h1><i class="far fa-address-book d-none d-sm-inline "></i><strong> Contact us!</strong></h1>
                         <abbr title="Phone " class="h2">P:</abbr> <span class="h2"><small>(+44) 77534633663</small></span>
                         <p class="h2">enquire@hnn.co.uk</p>
                     </div>
-
                     <div class="col-12 d-sm-none d-sm-block col-sm-6 col-md-4 col-lg-4 col-xl-3 container-wrapper-pink offers">
                         <h1><i class="far fa-smile d-none d-sm-inline "></i><strong> Try us!</strong></h1>
                         <p>Are you still not convinced and want to see if the gym is ideal for you? <br> or maybe you would like to check out the facilities and/or equipment we have to offer? Well, you're in luck!<br> Check out our visit us section to find
                             out our opening hours, pick a day that suits you and when you're ready just pop in.<br> When you arrive, talk to our dedicating staff and they will be able to assist you this and anything else.</p>
                     </div>
-
                     <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 container-wrapper-pinker offers">
                         <h1><i class="fas fa-newspaper d-none d-sm-inline "></i><strong> Get the Latest Specials and News</strong></h1>
-                        <p>
-                            <lead>Join our newsletter (form) </lead>
-                        </p>
+                        <h1>SUBSCRIBE</h1>
+                        <p>Enter your email to recieve up to date developments about the gym such as new products, special promotional offers and our company's participation in exhibitions and conferences. </p>
+                        <form>
+                            <div class="form-group offers h2">
+                                <input type="email" class="form-control offers" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required style="margin-left: 25%;">
+                            </div>
+                            <div class="col-12 join-now offers">
+                                <a href="login.html" class="btn btncolor btn-lg" data-toggle="modal" data-target="#newsletterModal">Sumbit</a>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </section>
-            <!-- /.marketing -->
         </div>
     </div>
-
-
+    <!-- /MARKETING -->
     <!-- FOOTER -->
     <footer class="footer footer-style">
         <div class="container-fluid">
             <i class="fab fa-twitter-square"></i> <i class="fab fa-facebook-square"></i> <i class="fab fa-instagram"></i> <i class="fab fa-snapchat-square"></i>
         </div>
     </footer>
-
+    <!--/FOOTER-->
+    
     <!-- MODAL ERROR-->
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginmodaltitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -157,15 +155,31 @@
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button>
+                    </button>
                     <p>This login form does not currently load you to another page or collect any personal information. It is only for educational purposes.
                     </p>
                 </div>
             </div>
         </div>
     </div>
-
-
+    <!-- /MODAL ERROR-->
+    
+    <!-- MODAL NEWSLETTER-->
+    <div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="newlettermodaltitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+                    </button>
+                    <p>This newsletter form does not currently load you to another page or collect any personal information. It is only for educational purposes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /MODAL NEWSLETTER-->
+    
     <!-- MODAL HOURS-->
     <div class="modal fade" id="hoursModal" tabindex="-1" role="dialog" aria-labelledby="hoursmodaltitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -190,9 +204,9 @@
             </div>
         </div>
     </div>
-
-
+    <!-- /MODAL HOURS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
 </body>
+</html>

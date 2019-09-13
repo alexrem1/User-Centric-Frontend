@@ -233,9 +233,16 @@
 
                     <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 container-wrapper-pinker offers">
                         <h1><i class="fas fa-newspaper d-none d-sm-inline "></i><strong> Get the Latest Specials and News</strong></h1>
-                        <p>
-                            <lead>Join our newsletter (form) </lead>
-                        </p>
+                        <h1>SUBSCRIBE</h1>
+                        <p>Enter your email to recieve up to date developments about the gym such as new products, special promotional offers and our company's participation in exhibitions and conferences. </p>
+                        <form>
+                            <div class="form-group offers h2">
+                                <input type="email" class="form-control offers" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required style="margin-left: 25%;">
+                            </div>
+                            <div class="col-12 join-now offers">
+                                <input type="submit" value='Submit' class="btn btncolor btn-lg" data-toggle="modal" data-target="#newsletterModal">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -264,8 +271,22 @@
             </div>
         </div>
     </div>
-
-
+    <!--/MODAL ERROR-->
+    <!-- MODAL NEWSLETTER-->
+    <div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="newlettermodaltitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+                    </button>
+                    <p>This newsletter form does not currently load you to another page or collect any personal information. It is only for educational purposes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /MODAL NEWSLETTER-->
     <!-- MODAL HOURS-->
     <div class="modal fade" id="hoursModal" tabindex="-1" role="dialog" aria-labelledby="hoursmodaltitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
