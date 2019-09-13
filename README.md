@@ -2,7 +2,7 @@
 <p>Project 1: User-Centric Frontend Development - Code Institute
 My gym website is aimed at attracting and retaining members via benefits focus, member segmentation, newsletters, availability on different social media platforms as well as information about the gym and its procedures. The website highlights its facilities, pricing (membership and offers), safety and security, our location and contact details and why a prospective member should choose hammer and nails.
 <br>
-A live demo can be seen <a href="https://alexrem1.github.io/User-Centric-Frontend/index.html">here</a>.
+A live demo can be seen <a href="https://alexrem1.github.io/User-Centric-Frontend/">here</a>.
 
 <h2>UX</h2>
 <p>My website design, for prospective members, is intended to give educational information that’ll attract them to join the gym based on the available data. For example a prospective member may want to find out how far the gym is or if they believe the gym is truly safe. However, current members use information on the website, classes for example, actively participate in receiving voluntary information about the gym with the aim of member retention.
